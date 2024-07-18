@@ -1,0 +1,15 @@
+###
+PUT http://localhost:5555/books/66745b3ef05ca22d3f993837
+Content-Type: application/json
+
+{
+    "title": "Harry Potter",
+    "author": "JK Rowling",
+    "publishYear": 1990
+}
+###
+
+###
+GET http://localhost:5555/books/66745b3ef05ca22d3f993837
+
+###
